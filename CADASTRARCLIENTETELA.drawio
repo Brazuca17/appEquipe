@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T11:10:00.773Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="nXEotawT3iOVZ2WL-vhT" version="24.5.4" type="device" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-06-17T13:31:41.265Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Xf8A41WYFUxnhE7NFZq0" version="24.5.4" type="device" pages="7">
   <diagram name="Página-1" id="Z2X7U-kc3Gqdy1lj0Mav">
     <mxGraphModel dx="2876" dy="2286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3783,7 +3783,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UDmncitRHWpG-gCNA55M" name="Página-3">
-    <mxGraphModel dx="2336" dy="1982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4175" dy="2733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3982,7 +3982,7 @@
           <mxGeometry x="180" y="166.25" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mzmI76d2slMKTNcqHuuq-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="-810" y="10" width="450" height="800" as="geometry" />
+          <mxGeometry x="-810" width="450" height="800" as="geometry" />
         </mxCell>
         <mxCell id="mzmI76d2slMKTNcqHuuq-2" value="" style="swimlane;startSize=0;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-730" y="273.75" width="302.5" height="272.5" as="geometry">
@@ -3998,9 +3998,6 @@
         <mxCell id="mzmI76d2slMKTNcqHuuq-5" value="SIM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="mzmI76d2slMKTNcqHuuq-2" vertex="1">
           <mxGeometry x="55" y="166.25" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mzmI76d2slMKTNcqHuuq-6" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;CADASTRAR CLIENTE&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;gradientColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="-635" y="50" width="100" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="mzmI76d2slMKTNcqHuuq-7" value="NAO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-520" y="440" width="60" height="30" as="geometry" />
         </mxCell>
@@ -4010,11 +4007,14 @@
         <mxCell id="mzmI76d2slMKTNcqHuuq-9" value="NAO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-525" y="440" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qAumA1FRrfmw6c5_zYT8-1" value="Matéria Prima:&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qAumA1FRrfmw6c5_zYT8-1" value="Matéria Prima:&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="275" y="510" width="95" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qAumA1FRrfmw6c5_zYT8-5" value="Matéria Prima:&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qAumA1FRrfmw6c5_zYT8-5" value="Matéria Prima:&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1186.25" y="95" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iohgzu1ixTC54JMk3NQQ-1" value="CADASTRAR FORNECEDOR&amp;nbsp;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-635" y="50" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
