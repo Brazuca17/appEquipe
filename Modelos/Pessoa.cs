@@ -1,3 +1,6 @@
+namespace Modelos
+{
+
 public class Pessoa
 {
     string nome;
@@ -56,13 +59,5 @@ public class Pessoa
         return telefone;
      }
 
-
-
-
-
-
-
-
-
-
+}
 }

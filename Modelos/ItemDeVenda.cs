@@ -1,3 +1,5 @@
+namespace Modelos
+{
 public class ItemDeVenda
 {
 
@@ -58,7 +60,5 @@ string OBS;
     }
 
 
-
-
-
+}
 }

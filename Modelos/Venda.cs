@@ -1,3 +1,6 @@
+namespace Modelos
+{
+
 public class Id_Venda
 {
 string Cliente;
@@ -60,35 +63,5 @@ public string GetDataDePedido()
     return DataDePedido;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 }

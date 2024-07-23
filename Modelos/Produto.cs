@@ -1,3 +1,6 @@
+namespace Modelos
+{
+
 public class produto
 {
 
@@ -24,5 +27,5 @@ string NomeProduto;
         return NomeProduto;
     }
 
-
+}
 }

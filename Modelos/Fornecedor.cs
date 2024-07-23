@@ -1,4 +1,6 @@
-public class Fornecedor
+namespace Modelos
+{
+public class Fornecedor : Pessoa
 {
 
 int Id_Fornecedor;
@@ -46,21 +48,5 @@ string MateriaPrima;
         return MateriaPrima;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 }
