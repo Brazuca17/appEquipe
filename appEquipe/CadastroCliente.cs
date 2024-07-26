@@ -23,5 +23,6 @@ namespace appEquipe
             // Navigate to the login page (implement your navigation logic here)
             // For example: Navigation.PushAsync(new LoginPage());
         }
+        
     }
 }

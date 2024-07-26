@@ -5,15 +5,36 @@
              Shell.NavBarIsVisible="False">
 <VerticalStackLayout>
     
-    <Button Text="iniciar"
+    <Button Text="Cadastro Fornecedor"
                 VerticalOptions="Center"
                 BorderWidth="2"
-                Clicked="clicked"
+                Clicked="IrCadastroFornecedor"
                 HeightRequest="50"
                 CornerRadius="25"
                 BackgroundColor="#a8b178"
                 TextColor="Black"
-                
+                FontSize="18"
+                BorderColor="Black"/>
+
+     <Button Text="CadastroCliente"
+                VerticalOptions="Center"
+                BorderWidth="2"
+                Clicked="IrCadastroCliente"
+                HeightRequest="50"
+                CornerRadius="25"
+                BackgroundColor="#a8b178"
+                TextColor="Black"
+                FontSize="18"
+                BorderColor="Black"/>
+
+    <Button Text="CadastroMateriaPrima"
+                VerticalOptions="Center"
+                BorderWidth="2"
+                Clicked="IrCadastroMateriaPrima"
+                HeightRequest="50"
+                CornerRadius="25"
+                BackgroundColor="#a8b178"
+                TextColor="Black"
                 FontSize="18"
                 BorderColor="Black"/>
 
