@@ -41,6 +41,12 @@ public partial class MainPage : ContentPage
       Application.Current.MainPage = new ListarCliente();
   }
 
+  private void IrListarFornecedor (object sender, EventArgs args)
+  {
+    if (Application.Current != null)
+      Application.Current.MainPage = new ListarFornecedor();
+  }
+
 	
 	
 }

@@ -63,6 +63,17 @@
                 FontSize="18"
                 BorderColor="Black"/>
 
+    <Button Text="ListarFornecedor"
+                VerticalOptions="Center"
+                BorderWidth="2"
+                Clicked="IrListarFornecedor"
+                HeightRequest="50"
+                CornerRadius="25"
+                BackgroundColor="#a8b178"
+                TextColor="Black"
+                FontSize="18"
+                BorderColor="Black"/>
+
 
 </VerticalStackLayout>
 </ContentPage>
