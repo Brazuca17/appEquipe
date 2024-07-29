@@ -7,6 +7,18 @@
 
             <Grid Padding="20">
                     <StackLayout Padding="20" Spacing="15">
+                    <Button Text="Voltar"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Start"
+                            BorderWidth="2"
+                            Clicked="VoltarMenu"
+                            HeightRequest="50"
+                            CornerRadius="25"
+                            BackgroundColor="#beeddf"
+                            TextColor="Black"
+                            FontSize="18"
+                            BorderColor="Black"/>
+
                         <Label Text="CADASTRAR FORNECEDOR" 
                                FontSize="Large" 
                                HorizontalOptions="Center" 

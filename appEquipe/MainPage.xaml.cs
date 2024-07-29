@@ -1,4 +1,6 @@
-﻿namespace appEquipe;
+﻿using AppEquipe;
+
+namespace appEquipe;
 
 public partial class MainPage : ContentPage
 {
@@ -25,6 +27,18 @@ public partial class MainPage : ContentPage
   {
     if (Application.Current != null)
       Application.Current.MainPage = new CadastroMateriaPrima();
+  }
+
+  private void IrListarMateriaPrima (object sender, EventArgs args)
+  {
+    if (Application.Current != null)
+      Application.Current.MainPage = new ListarMateriaPrima();
+  }
+
+  private void IrListarCliente (object sender, EventArgs args)
+  {
+    if (Application.Current != null)
+      Application.Current.MainPage = new ListarCliente();
   }
 
 	

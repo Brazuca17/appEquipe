@@ -24,5 +24,11 @@ namespace appEquipe
             // For example: Navigation.PushAsync(new LoginPage());
         }
         
+         private void VoltarMenu (object sender, EventArgs args)
+  {
+    if (Application.Current != null)
+      Application.Current.MainPage = new MainPage();
+  }
+        
     }
 }

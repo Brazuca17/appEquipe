@@ -21,5 +21,12 @@ namespace appEquipe
             // Add your logic for the Register button click event here
             DisplayAlert("Alert", "Register button clicked", "OK");
         }
+
+         private void VoltarMenu (object sender, EventArgs args)
+  {
+    if (Application.Current != null)
+      Application.Current.MainPage = new MainPage();
+  }
+
     }
 }

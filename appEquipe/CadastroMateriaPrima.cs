@@ -21,5 +21,11 @@ namespace appEquipe
             // Add your logic for the Cancel button click event here
             DisplayAlert("Alert", "Cancel button clicked", "OK");
         }
+
+         private void VoltarMenu (object sender, EventArgs args)
+  {
+    if (Application.Current != null)
+      Application.Current.MainPage = new MainPage();
+  }
     }
 }

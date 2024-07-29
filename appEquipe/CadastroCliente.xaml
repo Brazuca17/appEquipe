@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="appEquipe.CadastroCliente"
              Shell.NavBarIsVisible="False"
-             BackgroundColor="Beige"
+             BackgroundColor="#dae8b5"
              Padding="10">
 
     <ScrollView>
@@ -21,7 +21,19 @@
         <RowDefinition Height="*"/><!-- 10 -->
         <RowDefinition Height="*"/><!-- 11 -->
        </Grid.RowDefinitions>
-            
+
+       <Button Text="Voltar"
+              VerticalOptions="Center"
+              HorizontalOptions="Start"
+              BorderWidth="2"
+              Clicked="VoltarMenu"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="#cad9a3"
+              TextColor="Black"
+              FontSize="18"
+              BorderColor="Black"/>
+
             <!-- Title -->
             <Label Grid.Row="0"
                    Text="CADASTRAR CLIENTE" 
